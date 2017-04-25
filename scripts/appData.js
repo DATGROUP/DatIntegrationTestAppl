@@ -42,6 +42,10 @@ var appProperties = {
         pages: ['model selection', 'equipment selection', 'vehicle summary', 'vehicle data']
     },
     calculatePro: {
+        variants: [
+            'calculatePro',
+            'calculateExpert'
+        ],
         pages: {
             'model': '/vehicleSelection/model.htm',
             'eventList': '/eventList/eventList.html',
